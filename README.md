@@ -33,3 +33,9 @@ Supported arguments:
 * The GUI system does not properly resize each panel's texture buffers when the window resizes. This doesn't seem to cause crashes or serious problems, but it can cause a lot of 'invalid value' OpenGL errors when you resize the window. That shouldn't be too hard to fix, but I'm starting to think that I would be better off using a 3rd-party GUI library instead of writing my own.
 
 * Currently, the game runs with 'zero-gravity' physics; I had wanted to make a game where you worked on a spaceship, salvaging parts from wrecks that you docked with and piecing together the narratives of what doomed them, but then I got distracted. Anyways, the 'gravity' vector is set in the constructor of the `physics_manager` class, and it's easy to change.
+
+# Acknowledgements
+
+I learned a lot about the math behind 3D rendering from an ebook called, "Anton's OpenGL4 Tutorials". It does a very good job of explaining how the math operations apply to the visual representation of a scene using clear and simple language, and it goes over a variety of useful rendering techniques. I highly recommend it if you're interested in this sort of thing:
+
+http://antongerdelan.net/opengl/#ebook
