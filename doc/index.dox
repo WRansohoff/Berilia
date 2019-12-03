@@ -1,0 +1,18 @@
+/*! \mainpage Berilia Engine Documentation
+ *
+ * \section s_intro Introduction
+ *
+ * This is the documentation for a toy game engine that I wrote to learn about OpenGL and 3D rendering. I wrote it a couple of years ago, and now I'd like to document it and maybe re-write it with Vulkan.
+ *
+ * Documentation is currently somewhere between 'sparse' and 'non-existant', but writing it should be a good way to get myself back up to speed on how the engine works.
+ *
+ * \section s_deps Dependencies
+ *
+ * To-do: list dependencies which must be installed to build and run an application using this engine. (I think it's basically: GLFW, GLEW, OpenGL v3.3+, assimp [Asset Import library], bullet [Physics library])
+ *
+ * \section s_eng Engine Components
+ *
+ * To-do: list every individual engine components and link to pages describing them in more detail.
+ *
+ * * \ref p_game
+ */
