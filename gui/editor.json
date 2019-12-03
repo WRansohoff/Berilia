@@ -1,0 +1,2694 @@
+{
+	"panels": [{
+		"name": "right_pane",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 0, "y": 0, "w": 320, "h": 720,
+		"fill": {
+			"x": 0, "y": 0, "w": 320, "h": 720,
+			"r": 170, "g": 180, "b": 170, "a": 255
+		},
+
+		"panels": [{
+			"name": "add_unity_subpanel",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 0, "w": 320, "h": 126,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 116,
+				"r": 180, "g": 170, "b": 170, "a": 255
+			},
+
+			"panels": [{
+				"name": "add_unity_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 10, "w": 300, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Type of unity to add:"
+				}
+			},
+			{
+				"name": "add_unity_textbox_box",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 36, "w": 300, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 300, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "add_unity_textbox",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 43, "w": 280, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "add_unity_button",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 76, "w": 150, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 150, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "add_unity_button_text",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 170, "y": 83, "w": 130, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Create new unity"
+					}
+				}]
+			},
+			{
+				"name": "clear_selection_button",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 76, "w": 120, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 120, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "clear_selection_button_text",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 83, "w": 100, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Clear selection"
+					}
+				}]
+			}]
+		},
+		{
+			"name": "right_divider_h01",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 116, "w": 320, "h": 4,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 4,
+				"r": 0, "g": 0, "b": 0, "a": 255
+			}
+		},
+		{
+			"name": "cur_sel_subpanel",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 120, "w": 320, "h": 516,
+			"z": 1,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 516,
+				"r": 170, "g": 170, "b": 180, "a": 255
+			},
+
+			"panels": [{
+				"name": "cur_sel_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 150, "y": 130, "w": 160, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Currently selected:"
+				}
+			},
+			{
+				"name": "cur_sel_name",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 130, "w": 130, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "__Global__"
+				}
+			},
+			{
+				"name": "cur_sel_pos_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 270, "y": 163, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Pos:"
+				}
+			},
+			{
+				"name": "cur_sel_pos_x_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 163, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "X:"
+				}
+			},
+			{
+				"name": "cur_sel_pos_x",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 163, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_sel_pos_x_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 156, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_x_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 163, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_pos_x_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 156, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_x_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 163, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_pos_y_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 198, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Y:"
+				}
+			},
+			{
+				"name": "cur_sel_pos_y",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 198, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_sel_pos_y_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 191, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_y_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 198, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_pos_y_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 191, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_y_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 198, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_pos_z_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 233, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Z:"
+				}
+			},
+			{
+				"name": "cur_sel_pos_z",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 233, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_sel_pos_z_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 226, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_z_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 233, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_pos_z_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 226, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_pos_z_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 233, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_rot_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 270, "y": 273, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Rot:"
+				}
+			},
+			{
+				"name": "cur_sel_rot_x_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 246, "y": 273, "w": 24, "h": 24,
+				"text": {
+					"x": 5, "y": 4,
+					"t": "X:"
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_sel_rot_x",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 273, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_rot_x_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 266, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_x_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 273, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_rot_x_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 266, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_x_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 273, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_rot_y_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 246, "y": 308, "w": 24, "h": 24,
+				"text": {
+					"x": 5, "y": 4,
+					"t": "Y:"
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_sel_rot_y",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 308, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_rot_y_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 301, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_y_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 308, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_rot_y_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 301, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_y_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 308, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_rot_z_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 246, "y": 343, "w": 24, "h": 24,
+				"text": {
+					"x": 5, "y": 4,
+					"t": "Z:"
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_sel_rot_z",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 343, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_rot_z_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 336, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_z_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 343, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_rot_z_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 336, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_z_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 343, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_rot_t_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 246, "y": 378, "w": 24, "h": 24,
+				"text": {
+					"x": 5, "y": 4,
+					"t": "T:"
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_sel_rot_t",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 378, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_rot_t_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 371, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_t_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 378, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_rot_t_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 371, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_rot_t_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 378, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_scale_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 272, "y": 418, "w": 48, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Scale:"
+				}
+			},
+			{
+				"name": "cur_sel_scale_x_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 453, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "X:"
+				}
+			},
+			{
+				"name": "cur_sel_scale_x",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 453, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_scale_x_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 446, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_x_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 453, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_scale_x_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 446, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_x_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 453, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_scale_y_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 488, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Y:"
+				}
+			},
+			{
+				"name": "cur_sel_scale_y",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 488, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_scale_y_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 481, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_y_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 488, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_scale_y_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 481, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_y_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 488, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_scale_z_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 523, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Z:"
+				}
+			},
+			{
+				"name": "cur_sel_scale_z",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 523, "w": 80, "h": 16
+			},
+			{
+				"name": "cur_sel_scale_z_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 516, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_z_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 523, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_sel_scale_z_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 516, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_scale_z_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 523, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_name_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 270, "y": 563, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Name:"
+				}
+			},
+			{
+				"name": "cur_sel_name_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 190, "y": 556, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_name_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 200, "y": 563, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_sel_delete_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 556, "w": 140, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 140, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+				"text": {
+					"x": 10, "y": 7,
+					"r": 196, "g": 32, "b": 32, "a": 255,
+					"t": "Delete Selected"
+				}
+			},
+			{
+				"name": "cur_sel_name_text_box_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 591, "w": 300, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 300, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_sel_name_text_box",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 598, "w": 280, "h": 16,
+					"textarea": true
+				}]
+			}]
+		},
+		{
+			"name": "right_divider_h02",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 636, "w": 320, "h": 4,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 4,
+				"r": 0, "g": 0, "b": 0, "a": 255
+			}
+		},
+		{
+			"name": "file_subpanel",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 640, "w": 320, "h": 100,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 100,
+				"r": 170, "g": 170, "b": 170, "a": 255
+			},
+
+			"panels": [{
+				"name": "file_subpanel_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 645, "w": 300, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Filename:"
+				}
+			},
+			{
+				"name": "file_subpanel_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 665, "w": 300, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 300, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "file_subpanel_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 672, "w": 280, "h": 16,
+					"textarea": true
+				}]
+			}]
+		},
+		{
+			"name": "file_subpanel_save_outline",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 230, "y": 700, "w": 60, "h": 20,
+			"z": 1,
+			"fill": {
+				"x": 0, "y": 0, "w": 60, "h": 20,
+				"r": 196, "g": 196, "b": 196, "a": 255
+			},
+			"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+			},
+
+			"panels": [{
+				"name": "file_subpanel_save",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 702, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Save"
+				}
+			}]
+		},
+		{
+			"name": "file_subpanel_load_outline",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 150, "y": 700, "w": 60, "h": 20,
+			"z": 1,
+			"fill": {
+				"x": 0, "y": 0, "w": 60, "h": 20,
+				"r": 196, "g": 196, "b": 196, "a": 255
+			},
+			"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+			},
+
+			"panels": [{
+				"name": "file_subpanel_load",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 160, "y": 702, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Load"
+				}
+			}]
+		},
+		{
+			"name": "cur_scripts_subpanel",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 156, "w": 320, "h": 480,
+			"z": 0,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 480,
+				"r": 170, "g": 170, "b": 180, "a": 255
+			},
+
+			"panels": [{
+				"name": "cur_scripts_page_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 156, "w": 200, "h": 20,
+				"text": {
+					"x": 0, "y": 2,
+					"t": "0 - 0"
+				}
+			},
+			{
+				"name": "cur_scripts_page_L",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 290, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 32, "g": 32, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "<"
+				}
+			},
+			{
+				"name": "cur_scripts_page_0",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 266, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "0"
+				}
+			},
+			{
+				"name": "cur_scripts_page_1",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "1"
+				}
+			},
+			{
+				"name": "cur_scripts_page_2",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 214, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "2"
+				}
+			},
+			{
+				"name": "cur_scripts_page_3",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 188, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "3"
+				}
+			},
+			{
+				"name": "cur_scripts_page_4",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "4"
+				}
+			},
+			{
+				"name": "cur_scripts_page_5",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 136, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "5"
+				}
+			},
+			{
+				"name": "cur_scripts_page_6",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 110, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "6"
+				}
+			},
+			{
+				"name": "cur_scripts_page_7",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 84, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "7"
+				}
+			},
+			{
+				"name": "cur_scripts_page_8",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 59, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "8"
+				}
+			},
+			{
+				"name": "cur_scripts_page_9",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 34, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 196, "g": 32, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": "9"
+				}
+			},
+			{
+				"name": "cur_scripts_page_R",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 186, "w": 20, "h": 22,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 22,
+					"r": 32, "g": 32, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"text": {
+					"x": 6, "y": 3,
+					"r": 255, "g": 255, "b": 255, "a": 255,
+					"t": ">"
+				}
+			},
+			{
+				"name": "cur_scripts_type_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 270, "y": 219, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Type:"
+				}
+			},
+			{
+				"name": "cur_scripts_type_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 212, "w": 180, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 200, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_scripts_type_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 219, "w": 174, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_scripts_type_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 212, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+				"text": {
+					"x": 15, "y": 7,
+					"t": "Set"
+				}
+			},
+			{
+				"name": "cur_scripts_on_use_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 254, "y": 249, "w": 56, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "On-use:"
+				}
+			},
+			{
+				"name": "cur_scripts_on_use_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 1,
+				"x": 224, "y": 247, "w": 20, "h": 20,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 20,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_scripts_on_use_check",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 0,
+				"x": 229, "y": 252, "w": 10, "h": 10,
+				"fill": {
+					"x": 0, "y": 0, "w": 10, "h": 10,
+					"r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_scripts_apply_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 120, "y": 247, "w": 60, "h": 20,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 20,
+					"r": 32, "g": 196, "b": 32, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+				"text": {
+					"x": 10, "y": 2,
+					"t": "Apply"
+				}
+			},
+			{
+				"name": "cur_scripts_delete_selected_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 40, "y": 249, "w": 56, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Delete:"
+				}
+			},
+			{
+				"name": "cur_scripts_delete_selected_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 247, "w": 20, "h": 20,
+				"fill": {
+					"x": 0, "y": 0, "w": 20, "h": 20,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 1, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_scripts_delete_selected_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 16, "y": 249, "w": 8, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "X"
+					}
+				}]
+			},
+			{
+				"name": "cur_scripts_type_dep_area",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 0, "y": 280, "w": 320, "h": 200
+			}]
+		},
+		{
+			"name": "cur_light_subpanel",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 156, "w": 320, "h": 480,
+			"z": 0,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 480,
+				"r": 170, "g": 170, "b": 180, "a": 255
+			},
+
+			"panels": [{
+				"name": "cur_light_pos_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 270, "y": 163, "w": 40, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Pos:"
+				}
+			},
+			{
+				"name": "cur_light_pos_x_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 163, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "X:"
+				}
+			},
+			{
+				"name": "cur_light_pos_x",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 163, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_light_pos_x_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 156, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_x_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 163, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_pos_x_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 156, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_x_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 163, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_pos_y_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 198, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Y:"
+				}
+			},
+			{
+				"name": "cur_light_pos_y",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 198, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_light_pos_y_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 191, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_y_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 198, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_pos_y_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 191, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_y_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 198, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_pos_z_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 240, "y": 233, "w": 30, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Z:"
+				}
+			},
+			{
+				"name": "cur_light_pos_z",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 233, "w": 78, "h": 16
+			},
+			{
+				"name": "cur_light_pos_z_entry_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 226, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_z_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 83, "y": 233, "w": 74, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_pos_z_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 226, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_pos_z_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 15, "y": 233, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_spec_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 210, "y": 273, "w": 80, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Spec.:"
+				}
+			},
+			{
+				"name": "cur_light_diff_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 120, "y": 273, "w": 80, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Diff.:"
+				}
+			},
+			{
+				"name": "cur_light_amb_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 30, "y": 273, "w": 80, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Amb.:"
+				}
+			},
+			{
+				"name": "cur_light_R_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 290, "y": 301, "w": 20, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "R:"
+				}
+			},
+			{
+				"name": "cur_light_R_spec_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 210, "y": 294, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_R_spec_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 220, "y": 301, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_R_diff_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 120, "y": 294, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_R_diff_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 130, "y": 301, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_R_amb_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 30, "y": 294, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_R_amb_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 40, "y": 301, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_G_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 290, "y": 341, "w": 20, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "G:"
+				}
+			},
+			{
+				"name": "cur_light_G_spec_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 210, "y": 334, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_G_spec_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 220, "y": 341, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_G_diff_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 120, "y": 334, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_G_diff_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 130, "y": 341, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_G_amb_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 30, "y": 334, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_G_amb_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 40, "y": 341, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_B_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 290, "y": 381, "w": 20, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "B:"
+				}
+			},
+			{
+				"name": "cur_light_B_spec_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 210, "y": 374, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_B_spec_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 220, "y": 381, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_B_diff_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 120, "y": 374, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_B_diff_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 130, "y": 381, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_B_amb_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 30, "y": 374, "w": 80, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 80, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_B_amb_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 40, "y": 381, "w": 60, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_spec_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 220, "y": 414, "w": 60, "h": 30,
+				"fill":  {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_spec_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 230, "y": 421, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_diff_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 130, "y": 414, "w": 60, "h": 30,
+				"fill":  {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_diff_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 140, "y": 421, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_amb_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 40, "y": 414, "w": 60, "h": 30,
+				"fill":  {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_amb_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 50, "y": 421, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_spec_exp_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 230, "y": 461, "w": 80, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Spec. Exp:"
+				}
+			},
+			{
+				"name": "cur_light_spec_exp_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 454, "w": 140, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 140, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_spec_exp_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 90, "y": 461, "w": 120, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_spec_exp_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 454, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_spec_exp_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 461, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_falloff_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 230, "y": 501, "w": 80, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Falloff:"
+				}
+			},
+			{
+				"name": "cur_light_falloff_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 80, "y": 494, "w": 140, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 140, "h": 30,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_falloff_entry",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 90, "y": 501, "w": 120, "h": 16,
+					"textarea": true
+				}]
+			},
+			{
+				"name": "cur_light_falloff_set_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 494, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_falloff_set_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 20, "y": 501, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Set"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_add_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 190, "y": 534, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_add_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 200, "y": 541, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Add"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_del_outline",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 70, "y": 534, "w": 60, "h": 30,
+				"fill": {
+					"x": 0, "y": 0, "w": 60, "h": 30,
+					"r": 196, "g": 196, "b": 196, "a": 255
+				},
+				"outline": {
+					"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+				},
+
+				"panels": [{
+					"name": "cur_light_del_label",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 80, "y": 541, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": "Del"
+					}
+				}]
+			},
+			{
+				"name": "cur_light_amb",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 165, "y": 581, "w": 145, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "A: "
+				}
+			},
+			{
+				"name": "cur_light_diff",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 581, "w": 145, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "D: "
+				}
+			},
+			{
+				"name": "cur_light_spec",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 165, "y": 602, "w": 145, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "S: "
+				}
+			},
+			{
+				"name": "cur_light_exp_falloff",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 10, "y": 602, "w": 145, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "E      F "
+				}
+			}]
+		},
+		{
+			"name": "cur_light_subpanel2",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 0, "y": 156, "w": 320, "h": 480,
+			"z": 0,
+			"fill": {
+				"x": 0, "y": 0, "w": 320, "h": 480,
+				"r": 170, "g": 170, "b": 180, "a": 255
+			},
+
+			"panels": [{
+				"name": "cur_light_type_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 262, "y": 163, "w": 48, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Type:"
+				}
+			},
+			{
+				"name": "cur_light_type_checkbox_pt",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 1,
+				"x": 162, "y": 156, "w": 32, "h": 32,
+				"fill": {
+					"x": 0, "y": 0, "w": 32, "h": 32,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_light_type_check_pt",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 0,
+				"x": 162, "y": 156, "w": 32, "h": 32,
+				"fill": {
+					"x": 8, "y": 8, "w": 16, "h": 16,
+					"r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_light_type_pt_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 64, "y": 156, "w": 92, "h": 32,
+				"text": {
+					"x": 0, "y": 8,
+					"t": "Point"
+				}
+			},
+			{
+				"name": "cur_light_type_checkbox_spot",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 1,
+				"x": 162, "y": 192, "w": 32, "h": 32,
+				"fill": {
+					"x": 0, "y": 0, "w": 32, "h": 32,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_light_type_check_spot",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 0,
+				"x": 162, "y": 192, "w": 32, "h": 32,
+				"fill": {
+					"x": 8, "y": 8, "w": 16, "h": 16,
+					"r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_light_type_spot_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 64, "y": 192, "w": 92, "h": 32,
+				"text": {
+					"x": 0, "y": 8,
+					"t": "Spot"
+				}
+			},
+			{
+				"name": "cur_light_spot_dir_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 200, "y": 232, "w": 120, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Spot Dir."
+				}
+			},
+			{
+				"name": "cur_light_spot_dir_x_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 220, "y": 232, "w": 24, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "X:"
+				}
+			},
+			{
+				"name": "cur_light_spot_dir_x",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 0, "y": 225, "w": 200, "h": 30,
+
+				"panels": [{
+					"name": "cur_light_spot_cur_x",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 158, "y": 232, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": ""
+					}
+				},
+				{
+					"name": "cur_light_spot_dir_x_entry_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 80, "y": 225, "w": 80, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 80, "h": 30,
+						"r": 255, "g": 255, "b": 255, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_x_entry",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 83, "y": 232, "w": 74, "h": 16,
+						"textarea": true
+					}]
+				},
+				{
+					"name": "cur_light_spot_dir_x_set_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 10, "y": 225, "w": 60, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 60, "h": 30,
+						"r": 196, "g": 196, "b": 196, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_x_set_label",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 15, "y": 232, "w": 40, "h": 16,
+						"text": {
+							"x": 0, "y": 0,
+							"t": "Set"
+						}
+					}]
+				}]
+			},
+			{
+				"name": "cur_light_spot_dir_y_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 220, "y": 274, "w": 24, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Y:"
+				}
+			},
+			{
+				"name": "cur_light_spot_dir_y",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 0, "y": 267, "w": 200, "h": 30,
+
+				"panels": [{
+					"name": "cur_light_spot_cur_y",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 158, "y": 274, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": ""
+					}
+				},
+				{
+					"name": "cur_light_spot_dir_y_entry_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 80, "y": 267, "w": 80, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 80, "h": 30,
+						"r": 255, "g": 255, "b": 255, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_y_entry",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 83, "y": 274, "w": 74, "h": 16,
+						"textarea": true
+					}]
+				},
+				{
+					"name": "cur_light_spot_dir_y_set_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 10, "y": 267, "w": 60, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 60, "h": 30,
+						"r": 196, "g": 196, "b": 196, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_y_set_label",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 15, "y": 274, "w": 40, "h": 16,
+						"text": {
+							"x": 0, "y": 0,
+							"t": "Set"
+						}
+					}]
+				}]
+			},
+			{
+				"name": "cur_light_spot_dir_z_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 226, "y": 316, "w": 18, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Z:"
+				}
+			},
+			{
+				"name": "cur_light_spot_dir_z",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 0, "y": 309, "w": 200, "h": 30,
+
+				"panels": [{
+					"name": "cur_light_spot_cur_z",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 158, "y": 316, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": ""
+					}
+				},
+				{
+					"name": "cur_light_spot_dir_z_entry_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 80, "y": 309, "w": 80, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 80, "h": 30,
+						"r": 255, "g": 255, "b": 255, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_z_entry",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 83, "y": 316, "w": 74, "h": 16,
+						"textarea": true
+					}]
+				},
+				{
+					"name": "cur_light_spot_dir_z_set_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 10, "y": 309, "w": 60, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 60, "h": 30,
+						"r": 196, "g": 196, "b": 196, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_dir_z_set_label",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 15, "y": 316, "w": 40, "h": 16,
+						"text": {
+							"x": 0, "y": 0,
+							"t": "Set"
+						}
+					}]
+				}]
+			},
+			{
+				"name": "cur_light_spot_angle_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 200, "y": 356, "w": 120, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Spot Ang."
+				}
+			},
+			{
+				"name": "cur_light_spot_angle_T_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 220, "y": 356, "w": 24, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "T:"
+				}
+			},
+			{
+				"name": "cur_light_spot_angle",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 0, "y": 349, "w": 200, "h": 30,
+
+				"panels": [{
+					"name": "cur_light_spot_cur_angle",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 158, "y": 356, "w": 40, "h": 16,
+					"text": {
+						"x": 0, "y": 0,
+						"t": ""
+					}
+				},
+				{
+					"name": "cur_light_spot_angle_entry_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 80, "y": 349, "w": 80, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 80, "h": 30,
+						"r": 255, "g": 255, "b": 255, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_angle_entry",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 83, "y": 356, "w": 74, "h": 16,
+						"textarea": true
+					}]
+				},
+				{
+					"name": "cur_light_spot_angle_set_outline",
+					"x_anchor": 1,
+					"y_anchor": 0,
+					"x": 10, "y": 349, "w": 60, "h": 30,
+					"fill": {
+						"x": 0, "y": 0, "w": 60, "h": 30,
+						"r": 196, "g": 196, "b": 196, "a": 255
+					},
+					"outline": {
+						"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+					},
+
+					"panels": [{
+						"name": "cur_light_spot_angle_set_label",
+						"x_anchor": 1,
+						"y_anchor": 0,
+						"x": 15, "y": 356, "w": 40, "h": 16,
+						"text": {
+							"x": 0, "y": 0,
+							"t": "Set"
+						}
+					}]
+				}]
+			},
+			{
+				"name": "cur_light_shadow_caster_label",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 206, "y": 396, "w": 114, "h": 16,
+				"text": {
+					"x": 0, "y": 0,
+					"t": "Shadow caster:"
+				}
+			},
+			{
+				"name": "cur_light_shadow_caster_checkbox",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"z": 1,
+				"x": 162, "y": 389, "w": 32, "h": 32,
+				"fill": {
+					"x": 0, "y": 0, "w": 32, "h": 32,
+					"r": 255, "g": 255, "b": 255, "a": 255
+				},
+				"outline": {
+					"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+				}
+			},
+			{
+				"name": "cur_light_shadow_caster_check",
+				"x_anchor": 1,
+				"y_anchor": 0,
+				"x": 162, "y": 389, "w": 32, "h": 32,
+				"fill": {
+					"x": 8, "y": 8, "w": 16, "h": 16,
+					"r": 0, "g": 0, "b": 0, "a": 255
+				}
+			}]
+		}]
+	},
+	{
+		"name": "cur_sel_switcher",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 320, "y": 0, "w": 38, "h": 128,
+		"fill": {
+			"x": 0, "y": 0, "w": 38, "h": 128,
+			"r": 180, "g": 170, "b": 170, "a": 255
+		},
+		"outline": {
+			"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+		},
+
+		"panels": [{
+			"name": "cur_sel_switcher_text",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 328, "y": 16, "w": 16, "h": 96,
+			"texts": [{
+				"x": 0, "y": 0,
+				"t": "T"
+			},
+			{
+				"x": 0, "y": 16,
+				"t": "R"
+			},
+			{
+				"x": 0, "y": 32,
+				"t": "A"
+			},
+			{
+				"x": 0, "y": 48,
+				"t": "N"
+			},
+			{
+				"x": 0, "y": 64,
+				"t": "S"
+			},
+			{
+				"x": 0, "y": 80,
+				"t": "."
+			}]
+		}]
+	},
+	{
+		"name": "cur_scripts_switcher",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 320, "y": 128, "w": 38, "h": 128,
+		"fill": {
+			"x": 0, "y": 0, "w": 38, "h": 128,
+			"r": 170, "g": 170, "b": 180, "a": 255
+		},
+		"outline": {
+			"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+		},
+
+		"panels": [{
+			"name": "cur_scripts_switcher_text",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 328, "y": 144, "w": 16, "h": 96,
+			"texts": [{
+				"x": 0, "y": 0,
+				"t": "S"
+			},
+			{
+				"x": 0, "y": 16,
+				"t": "C"
+			},
+			{
+				"x": 0, "y": 32,
+				"t": "R"
+			},
+			{
+				"x": 0, "y": 48,
+				"t": "I"
+			},
+			{
+				"x": 0, "y": 64,
+				"t": "P"
+			},
+			{
+				"x": 0, "y": 80,
+				"t": "T"
+			}]
+		}]
+	},
+	{
+		"name": "cur_light_switcher",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 320, "y": 256, "w": 38, "h": 128,
+		"fill": {
+			"x": 0, "y": 0, "w": 38, "h": 128,
+			"r": 170, "g": 180, "b": 170, "a": 255
+		},
+		"outline": {
+			"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+		},
+
+		"panels": [{
+			"name": "cur_light_switcher_text",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 328, "y": 272, "w": 16, "h": 96,
+			"texts": [{
+				"x": 0, "y": 0,
+				"t": "L"
+			},
+			{
+				"x": 0, "y": 16,
+				"t": "I"
+			},
+			{
+				"x": 0, "y": 32,
+				"t": "G"
+			},
+			{
+				"x": 0, "y": 48,
+				"t": "H"
+			},
+			{
+				"x": 0, "y": 64,
+				"t": "T"
+			},
+			{
+				"x": 0, "y": 80,
+				"t": "S"
+			}]
+		}]
+	},
+	{
+		"name": "cur_light_switcher2",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 320, "y": 384, "w": 38, "h": 128,
+		"fill": {
+			"x": 0, "y": 0, "w": 38, "h": 128,
+			"r": 170, "g": 180, "b": 170, "a": 255
+		},
+		"outline": {
+			"o": 4, "r": 0, "g": 0, "b": 0, "a": 255
+		},
+
+		"panels": [{
+			"name": "cur_light_switcher2_text",
+			"x_anchor": 1,
+			"y_anchor": 0,
+			"x": 328, "y": 400, "w": 16, "h": 96,
+			"texts": [{
+				"x": 0, "y": 0,
+				"t": "L"
+			},
+			{
+				"x": 0, "y": 16,
+				"t": "I"
+			},
+			{
+				"x": 0, "y": 32,
+				"t": "G"
+			},
+			{
+				"x": 0, "y": 48,
+				"t": "H"
+			},
+			{
+				"x": 0, "y": 64,
+				"t": "T"
+			},
+			{
+				"x": 0, "y": 80,
+				"t": "2"
+			}]
+		}]
+	},
+	{
+		"name": "right_divider_v01",
+		"x_anchor": 1,
+		"y_anchor": 0,
+		"x": 320, "y": 0, "w": 4, "h": 720,
+		"fill": {
+			"x": 0, "y": 0, "w": 4, "h": 720,
+			"r": 0, "g": 0, "b": 0, "a": 255
+		}
+	}]
+}

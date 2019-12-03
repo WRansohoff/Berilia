@@ -1,0 +1,61 @@
+{
+	"panels": [{
+		"name": "SR_panel",
+		"x_anchor": 1, "y_anchor": 0,
+		"x": 0, "y": 0, "w": 320, "h": 200,
+
+		"panels": [{
+			"name": "SR_description_label",
+			"x_anchor": 1, "y_anchor": 0,
+			"x": 0, "y": 4, "w": 300, "h": 16,
+			"text": {
+				"x": 0, "y": 0,
+				"t": "Readable object script - on-use"
+			}
+		},
+		{
+			"name": "SR_text_fn_label",
+			"x_anchor": 0, "y_anchor": 0,
+			"x": 10, "y": 32, "w": 64, "h": 16,
+			"text": {
+				"x": 0, "y": 0,
+				"t": "Book path:"
+			}
+		},
+		{
+			"name": "SR_text_fn_outline",
+			"x_anchor": 0, "y_anchor": 0,
+			"x": 80, "y": 25, "w": 160, "h": 30,
+			"fill": {
+				"x": 0, "y": 0, "w": 160, "h": 30,
+				"r": 255, "g": 255, "b": 255, "a": 255
+			},
+			"outline": {
+				"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+			},
+
+			"panels": [{
+				"name": "SR_text_fn_entry",
+				"x_anchor": 0, "y_anchor": 0,
+				"x": 84, "y": 32, "w": 152, "h": 16,
+				"textarea": true
+			}]
+		},
+		{
+			"name": "SR_text_fn_set_outline",
+			"x_anchor": 1, "y_anchor": 0,
+			"x": 10, "y": 25, "w": 60, "h": 30,
+			"fill": {
+				"x": 0, "y": 0, "w": 60, "h": 30,
+				"r": 196, "g": 196, "b": 196, "a": 255
+			},
+			"outline": {
+				"o": 2, "r": 0, "g": 0, "b": 0, "a": 255
+			},
+			"text": {
+				"x": 15, "y": 7,
+				"t": "Set"
+			}
+		}]
+	}]
+}
