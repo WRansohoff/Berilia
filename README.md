@@ -8,17 +8,25 @@ I'd like to rewrite it in Rust and/or Vulkan. And you know what they say: if you
 
 MinGW, MSVC, and GCC compilation toolchains should all be supported by the CMake build system, but I've only tested it with GCC on Linux recently.
 
-CMake will currently look for local versions of its dependencies under `lib/`, but they're pretty old snapshots by now; I should update those libraries or just include instructions for downloading, building, and installing them. Especially since the library directories were pretty big, so I only added the static library files themselves; you'd probably be better off building AssImp, Bullet, GLFW, and GLEW yourself. Sorry about that.
+CMake will look for the following dependencies on the host system using its `find_package` directive. They are all required to build the application:
+
+* AssImp ( https://github.com/assimp/assimp )
+
+* Bullet ( https://github.com/bulletphysics/bullet3 )
+
+* GLFW ( https://github.com/glfw/glfw )
+
+* GLEW ( https://github.com/nigels-com/glew )
 
 # Usage
 
-`./main [args]`
+`./main [arguments]`
 
 Supported arguments:
 
 `-e`: Start the engine in 'level editor mode'. This sets the physics engine to treat everything as static, and enables a barebones GUI for adding new game objects and modifying their properties. The resulting level can be saved to a JSON format to be loaded later.
 
-`-l`: Load a previously-saved file when starting the game.
+`-l <file_path>`: Load a previously-saved file when starting the game.
 
 # Known Issues
 
